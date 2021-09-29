@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <style type="text/css">
+    html { 
+  background: url(../pictures/wallpaper.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+form {
+    float: center;
+ border: 1px solid black;
+    margin-top: 80px;
+    width: 50%;
+    padding: 10px;
+    text-align:center;
+    color: white;
+ background-color:rgba(0,0,0,0.5);
+
+}
+h1{
+    color: white;
+}
+</style>
+
+    <body><CENTER>
+        <h1>Form!!!</h1>
+        <form name="messageform" onsubmit="validateForm()">
+            <p>First name: <input type="text" name="firstname"></p>
+            <p>Last name: <input type="text" name="lastname"></p>
+            <p>Gender: <input type="radio" name="gender" value="male" checked>
+            Male
+            <input type="radio" name="gender" value="female"> Female 
+            </p>
+            <p>Message: <br> <textarea name="message"  cols="30" rows="10" placeholder="Enter Message"></textarea></p>
+            <p><input type="submit" value="Send"></p>
+        </form>
+        </CENTER>
+        <script>
+            function validateForm() {
+                var fname = document.forms["messageform"]["firstname"].value;
+                var lname = document.forms["messageform"]["lastname"].value;
+                var gender = document.forms["messageform"]["gender"].value;
+                var message = document.forms["messageform"]["message"].value;
+
+                if (fname == "" || lname == "" || message == "" ){
+                    alert("Empty fields found. Please fill the form.");
+                }
+                else{
+                    alert("Thank you for The feedback.")
+                }
+            }
+        </script>
+        
+    </body>
+</html>

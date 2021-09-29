@@ -1,0 +1,44 @@
+
+
+html { 
+  background: url(../pictures/flower.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+form {
+ border: 1px solid black;
+ 	margin-top: 80px;
+    width: 19%;
+    padding: 10px;
+    text-align:center;
+    color: white;
+ background-color:rgba(0,0,0,0.5);
+ border-radius: 29px;
+
+}
+
+
+
+.ead{
+	
+}
+.amine h1{
+	font-weight: bold;
+
+}
+.amine p{
+	font-weight: bold;
+}
+.amine input{
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+input.btn-submit{
+	border:0px;
+	width: 90px;
+	background-color: rgba(0,0,0,0);
+	color:white;
+}

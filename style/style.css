@@ -1,0 +1,241 @@
+*{
+  margin: 0px auto;
+  padding: 0px auto;
+  font-family: sans-serif;
+}
+body{
+  background:url(auero.jpeg) no-repeat;
+  background-size: cover;
+  color: white ;
+  height: 1160px;
+  font-family: verdana;
+}
+header{
+  width: 100%;
+  background-color:rgb(32,45,53);
+  opacity:1;
+  height: 20px;
+  color: white;
+    padding:10px;
+    top:-0px;
+    line-height: -19px;
+    position:fixed}
+
+header  ul#navmenu4{
+  list-style-type: none;
+  opacity:100%;
+  color:rgb(32,45,53);
+
+
+}
+header #navmenu li{
+  text-align: center;
+  position: relative;
+  width: 125px;
+  float: left;
+  margin-right: 32px;
+  margin-left: 2px;
+  color: white;
+  list-style: none;
+ 
+} 
+header #navmenu li a{
+  text-decoration: none;
+  display:inline-block;
+  
+  width: 125px; 
+  height: 25px;
+  background-color:rgb(32,45,53);
+  color: white;
+
+}
+
+header #navmenu li:hover > a { 
+  background-color:rgb(32,45,53);
+  opacity:99;
+  border:1px solid white;
+}
+ header ul#navmenu  li:hover a:hover{
+  background-color:rgb(32,45,53);
+  opacity:100%;
+
+}
+
+.testimonials{
+  min-height: 100vh;
+  background-color: transparent;
+  float: left;
+  width: 100%;
+  padding:100px 15px;
+}
+
+.container{
+  max-width: 1170px;
+  margin: auto;
+}
+.testimonials .title{
+  margin-bottom:60px
+}
+.testimonials .title h1{
+  text-align: center;
+  color:#ffffff;
+  text-transform: uppercase;
+  font-size: 36px;
+  margin:0;
+}
+
+.testimonials .slider{
+ 
+ max-width: 600px;
+ margin: auto;
+ text-align: center;
+ padding:30px;
+ color: #000e0c;
+}
+.testimonials .slider .slide{
+  display: none;
+}
+.testimonials .slider .slide.active{
+  
+  display: block;
+  animation: slide 1s ease;
+}
+@keyframes slide{
+  0%{
+    opacity:0;
+    transform: translateX(-15px);
+  }
+  100%{
+     opacity:1;
+    transform: translateX(0px); 
+  }
+}
+.testimonials .slider p{
+  font-size:18px;
+  color:#000e0c;
+  word-spacing: 2px;
+}
+.testimonials .slider .client-info h3{
+  font-weight: bold;
+  color:#fff;
+  font-size:18px;
+  
+}
+.testimonials .slider .client-info span{
+  display: block;
+  font-size:16px;
+  color:#11bead;
+}
+.testimonials .slider-indicator{
+  text-align: center;
+  padding-top:30px;
+}
+.testimonials .slider-indicator img{
+  max-height:80px;
+  max-width:80px;
+  border-radius:50%;
+  display: inline-block;
+  margin:0 8px;
+  opacity:0.2;
+  border:4px solid #fff;
+  cursor: pointer;
+  transition: opacity 1s ease;
+}
+.testimonials .slider-indicator img.active{
+  opacity:1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logg{
+  border:0px;
+  height:24px;
+  width: 90px;
+  float : left;
+ margin-right:900px;
+ margin-top:-70px;
+}
+input.signup{
+  border:0px;
+  height:24px;
+  width: 90px;
+  background-color:rgba(12,158,100,0.53);
+  float : right;
+  margin-right: 31px;
+  border-radius: 25px;
+  color: white;
+opacity:0.5;
+}
+input.signup:hover{
+	opacity: 1;
+}
+header img{
+ opacity: 0.6;
+}
+header img:hover{
+	opacity: 1;
+}
+main{
+  height: 350px;
+  background-color: transparent;
+  margin:15px;
+  text-align: center;
+  margin-left: 360px;
+  margin-right: 360px;
+  margin-top: 170px;
+}
+  main img{
+    opacity: 0.5;
+    filter: alpha(opacity=50); 
+}
+
+ main img:hover{
+    opacity: 1.0;
+    filter: alpha(opacity=100); 
+
+}
+
+
+section {
+  height: 400px;
+  background-color:transparent;
+  margin:15px;
+  text-align: center;
+  margin-top: 120px;
+}
+
+}
+footer{
+  background-color:#0a038f;
+  height: 450px;
+  margin-top: 200px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+footer img{
+    opacity: 0.5;
+    filter: alpha(opacity=50); 
+}
+
+ footer img:hover{
+    opacity: 1.0;
+    filter: alpha(opacity=100); 
+
+
+}
+
+
+
+
